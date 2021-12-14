@@ -19,7 +19,6 @@ function AboutUsPage(props) {
               a complicated login process or download an app that is riddled with ads. Games2Go tries to solve this issue
               by being a platform where users can easily access and play games without the need of registration or ads. </p>
           </div>
-
           
           <div className="AboutUsDevelopers">
 
@@ -38,12 +37,12 @@ function AboutUsPage(props) {
                 </div>
                 
                 <div className="Developer 2">
-                  <h4>Place Holder</h4>
+                  <h4>Amna Amen</h4>
                     <div className="AboutUsDevelopersLinks">
-                        <a target="_blank"  rel='noreferrer'class = ""  href="./">
+                        <a target="_blank"  rel='noreferrer'class = ""  href="https://www.linkedin.com/in/amna-amen-a7a920205/">
                             <img src={linkedin} alt="linkedin" width="32" height="32"/> 
                         </a>
-                        <a target="_blank"  rel='noreferrer'class = "" href="./">
+                        <a target="_blank"  rel='noreferrer'class = "" href="https://github.com/Amna719">
                             <img src={github} alt="github" width="32" height="32"/> 
                         </a>
                     </div>

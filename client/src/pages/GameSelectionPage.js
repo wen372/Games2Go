@@ -8,7 +8,7 @@ function GameSelectionPage(props) {
       <Game content="Tetris" pictureSource="/tetris.jpg" link="/Tetris"></Game> 
       <Game content="Hangman" pictureSource="/hangman.jpg" link="/Hangman"></Game> 
       <Game content="Checkers" pictureSource="/checkers.jpg" link="/Checkers"></Game> 
-      
+      <Game content="2048" pictureSource="/2048.gif" link="/2048"></Game> 
 
     </div>
   );

@@ -16,6 +16,7 @@ import TicTacToePage from './pages/TicTacToePage';
 import TetrisPage from './pages/TetrisPage';
 import CheckerBoardPage from './pages/CheckerBoardPage';
 import HangmanPage from './pages/HangmanPage';
+import two48Page from './pages/two48Page';
 
 import './App.css';
 import { AuthProvider } from './context/AuthContext';
@@ -69,6 +70,7 @@ class App extends React.Component {
                 <Route path="/Hangman" component= {HangmanPage}/>
                 <Route path="/Tetris" component={TetrisPage}/>
                 <Route path="/chatbox" component={ChatBoxPage} />
+                <Route path="/2048" component={two48Page}/>
                 <Route path="/" component={GameSelectionPage} />
               </Switch>
             </div>
