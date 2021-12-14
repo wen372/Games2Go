@@ -1,10 +1,19 @@
 body {
   background: #EAE876;
 }
-.game{
+
+.gameCard{
   margin: 0 auto;
+  font-size: 30px;
 }
 
+.ticTacToeGame{
+  margin: 0 auto;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+
+}
 
 .board-row:after {
   clear: both;
@@ -20,16 +29,22 @@ body {
   background: #fff;
   border: 1px solid #999;
   float: left;
-  font-size: 24px;
+  font-size: 60px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
-  width: 34px; 
+  height: 15vh;
+  width: 15vw; 
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
   
+  
+}
+
+.square:hover{
+  background-color: #f7f6de;
+  transform: scale(1.05);
 }
 
 .square:focus {
@@ -40,12 +55,9 @@ body {
   background: #ddd;
 }
 
-.game {
-  display: flex;
-  flex-direction: row;
-}
 
-.game-info {
+
+.ticTacToeGame-info {
   margin-left: 20px;
 }
 
@@ -65,4 +77,55 @@ body {
 .ChatInput{
   margin-top: 5px;
 
+}
+
+.undo-button{
+  margin-top: 10px;
+  display: flex;
+  align-items: left;
+}
+
+.AboutUsCard{
+  background:hsla(0,0%,80%,.7);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  min-height: 70vh;
+  font-family: Nunito, sans-serif;
+  border-radius: 25px;
+  padding-top: 20px;
+}
+
+.AboutUsInfo{
+  text-align: left;
+  
+}
+
+.AboutUsDevelopers{
+  margin-top: 150px;
+
+}
+
+
+.AboutUsDevelopersInfo{
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-content: center;
+  gap:200px;
+  align-self: flex-end;
+  margin-top: 20px;
+  
+  
+}
+
+.AboutUsDevelopersLinks{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  padding-left: 5px;
+}
+
+.Developer {
+  flex-direction: column;
+  display: flex;
 }

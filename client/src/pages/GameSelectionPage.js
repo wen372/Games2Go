@@ -6,9 +6,10 @@ function GameSelectionPage(props) {
     <div className="container">
       <Game content="Tick Tack Toe" pictureSource="/ttt.jpg" link="/TicTacToe"></Game> 
       <Game content="Tetris" pictureSource="/tetris.jpg" link="/Tetris"></Game> 
-      <Game content="Hangman" pictureSource="/hangman.jpg" link="/TicTacToe"></Game>  
-      <Game content="Game 4" pictureSource="/ttt.jpg" link="/TicTacToe"></Game> 
-      <Game content="Game 5" pictureSource="/ttt.jpg" link="/TicTacToe"></Game> 
+      <Game content="Hangman" pictureSource="/hangman.jpg" link="/Hangman"></Game> 
+      <Game content="Checkers" pictureSource="/checkers.jpg" link="/Checkers"></Game> 
+      
+
     </div>
   );
 }

@@ -4,7 +4,7 @@ import { Image} from 'react-bootstrap';
 
 function Game({ content, pictureSource, link }) {
   return (
-    <div className="game col-6 col-md-5 col-lg-3 ">
+    <div className="gameCard col-6 col-md-5 col-lg-3 ">
       <div className="card mb-4 shadow">
         <div className="card-body card-text">
         {/*<Link to={"/posts/"+id}>{ content }</Link>*/}
