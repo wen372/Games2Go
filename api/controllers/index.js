@@ -7,7 +7,7 @@ const postsController = require('./posts.js');
 const appConfigController = require('./appConfig.js');
 const authController = require('./auth.js');
 
-const ChatCommentController = require('./ChatComments.js');
+const ChatCommentController = require('./chatComments.js');
 
 // Mount each controller under a specific route. These
 // will be prefixes to all routes defined inside the controller
